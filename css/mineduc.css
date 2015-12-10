@@ -404,3 +404,16 @@ login .content, .register .content, .passwordreset .content, #forgot-password-mo
 	    text-align: center;
 	    background-color: white;
 	}
+.wrapper {
+    padding: 0em;
+    background: #FDFEFF none repeat scroll 0% 0%;
+}
+
+.login .form-actions button[type="submit"], .register .form-actions button[type="submit"], .passwordreset .form-actions button[type="submit"], #forgot-password-modal #password-reset .form-actions button[type="submit"], .view-survey .action-primary, .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware {
+    box-shadow: 0px 2px 1px 0px #FFF;
+    background: #E11D23 none repeat scroll 0% 0%;
+}
+
+.login .form-actions button[type="submit"]:hover, .register .form-actions button[type="submit"]:hover, .passwordreset .form-actions button[type="submit"]:hover, #forgot-password-modal #password-reset .form-actions button[type="submit"]:hover, .view-survey .action-primary:hover, .view-partial-mktgregister .action.action-register:hover, .view-partial-mktgregister .action.access-courseware:hover, .login .form-actions button[type="submit"]:active, .register .form-actions button[type="submit"]:active, .passwordreset .form-actions button[type="submit"]:active, #forgot-password-modal #password-reset .form-actions button[type="submit"]:active, .view-survey .action-primary:active, .view-partial-mktgregister .action.action-register:active, .view-partial-mktgregister .action.access-courseware:active, .login .form-actions button[type="submit"]:focus, .register .form-actions button[type="submit"]:focus, .passwordreset .form-actions button[type="submit"]:focus, #forgot-password-modal #password-reset .form-actions button[type="submit"]:focus, .view-survey .action-primary:focus, .view-partial-mktgregister .action.action-register:focus, .view-partial-mktgregister .action.access-courseware:focus {
+    background: #EF8689 none repeat scroll 0% 0%;
+}
