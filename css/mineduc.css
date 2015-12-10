@@ -22,6 +22,13 @@
     background: url("../images/video2.jpg") no-repeat scroll center center / cover transparent;
 }
 
+.home > header .outer-wrapper {
+    margin: 0px auto;
+    padding: 160px 10px 0px;
+    position: relative;
+    max-width: 1200px;
+    min-width: 760px;
+}
 .view-login .introduction header {
     background-image: none;
 }
@@ -38,7 +45,7 @@ header.global {
 }
 .home header {
 		background-image: url("../images/bannerAltoResol2.png");
-		height: 700px;
+		height: 400px;
 }
 
 header.global .nav-courseware li .cta, header.global .nav-courseware div .cta, .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware {
