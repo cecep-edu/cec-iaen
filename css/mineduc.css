@@ -383,3 +383,24 @@ login .content, .register .content, .passwordreset .content, #forgot-password-mo
 	    width: 100%;
 	    overflow: hidden;
 	}
+	.wrapper-footer footer a:hover, .wrapper-footer footer a:focus, .wrapper-footer footer a:active {
+	    border-bottom: 1px dotted #E81E25;
+	    color: #E81E25;
+	}
+	
+	.wrapper-footer footer a {
+	    transition: link-color 0.15s ease-in-out 0s, border 0.15s ease-in-out 0s;
+	    border-bottom: medium none;
+	    color: #E81E25;
+	    text-decoration: none !important;
+	}
+	
+	.wrapper-footer footer {
+	    box-sizing: border-box;
+	    max-width: 100%;
+	    min-width: 760px;
+	    width: 100%;
+	    margin: 0px auto;
+	    text-align: center;
+	    background-color: white;
+	}
