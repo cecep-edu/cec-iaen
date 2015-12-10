@@ -417,3 +417,8 @@ login .content, .register .content, .passwordreset .content, #forgot-password-mo
 .login .form-actions button[type="submit"]:hover, .register .form-actions button[type="submit"]:hover, .passwordreset .form-actions button[type="submit"]:hover, #forgot-password-modal #password-reset .form-actions button[type="submit"]:hover, .view-survey .action-primary:hover, .view-partial-mktgregister .action.action-register:hover, .view-partial-mktgregister .action.access-courseware:hover, .login .form-actions button[type="submit"]:active, .register .form-actions button[type="submit"]:active, .passwordreset .form-actions button[type="submit"]:active, #forgot-password-modal #password-reset .form-actions button[type="submit"]:active, .view-survey .action-primary:active, .view-partial-mktgregister .action.action-register:active, .view-partial-mktgregister .action.access-courseware:active, .login .form-actions button[type="submit"]:focus, .register .form-actions button[type="submit"]:focus, .passwordreset .form-actions button[type="submit"]:focus, #forgot-password-modal #password-reset .form-actions button[type="submit"]:focus, .view-survey .action-primary:focus, .view-partial-mktgregister .action.action-register:focus, .view-partial-mktgregister .action.access-courseware:focus {
     background: #EF8689 none repeat scroll 0% 0%;
 }
+
+span {
+    font: 1em/1.6em "Source Sans","Open Sans",Verdana,Geneva,sans-serif,sans-serif;
+    color: #FFF;
+}
