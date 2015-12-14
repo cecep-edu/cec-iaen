@@ -1,4 +1,4 @@
-<%namespace name='static' file='../../static_content.html'/>
+<%namespace name='static' file='../../../static_content.html'/>
 <%!
 from microsite_configuration import microsite
 from django.utils.translation import ugettext as _
@@ -8,7 +8,7 @@ from django.conf import settings
 from edxmako.shortcuts import marketing_link
 %>
 
-<%inherit file="../../main.html" />
+<%inherit file="../../../main.html" />
 <%block name="headextra">
 
   <%
@@ -17,7 +17,7 @@ from edxmako.shortcuts import marketing_link
         ga=microsite.get_value('google_analytics_file', 'theme-google-analytics.html')
       )
     else:
-      google_analytics_file = '../../google_analytics.html'
+      google_analytics_file = '../../../google_analytics.html'
   %>
 
   <%include file="${google_analytics_file}" />
@@ -371,4 +371,4 @@ from edxmako.shortcuts import marketing_link
   </div>
 %endif
 
-<%include file="../../video_modal.html" />
+<%include file="../../../video_modal.html" />
