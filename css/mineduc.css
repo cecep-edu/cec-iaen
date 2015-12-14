@@ -422,3 +422,7 @@ span {
     font: 1em/1.6em "Source Sans","Open Sans",Verdana,Geneva,sans-serif,sans-serif;
     color: #FFF;
 }
+
+.find-courses, .university-profile {
+    padding-bottom: 60px;
+}
