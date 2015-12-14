@@ -447,7 +447,7 @@ header.global.slim h2 {
     margin-top: 9px;
     margin-bottom: 0px;
     text-transform: none;
-    text-shadow: 0px 1px 0px #FFF;
+    text-shadow: none;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
