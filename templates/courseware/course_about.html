@@ -14,7 +14,7 @@ from edxmako.shortcuts import marketing_link
   <%
     if self.theme_enabled():
       google_analytics_file = u'../{ga}'.format(
-        ga=microsite.get_value('google_analytics_file', '../../../theme-google-analytics.html')
+        ga=microsite.get_value('google_analytics_file', '../../theme-google-analytics.html')
       )
     else:
       google_analytics_file = '../../../google_analytics.html'
