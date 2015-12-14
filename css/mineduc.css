@@ -420,7 +420,7 @@ login .content, .register .content, .passwordreset .content, #forgot-password-mo
 
 span {
     font: 1em/1.6em "Source Sans","Open Sans",Verdana,Geneva,sans-serif,sans-serif;
-    color: #FFF;
+    color: rgba(128, 17, 17, 0.84);
 }
 
 .find-courses, .university-profile {
