@@ -424,5 +424,6 @@ span {
 }
 
 .find-courses, .university-profile {
+    background: none repeat scroll 0% 0%;
     padding-bottom: 60px;
 }
